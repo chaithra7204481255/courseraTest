@@ -1,0 +1,33 @@
+https://chaithra7204481255.github.io/courseraTest/
+
+! + Enter = basic html template
+
+C:\learning\courseraTest>git commit -m "my first page"
+
+C:\learning\courseraTest>browser-sync start --server --directory --files "*"
+opens a browser with file directory in chrome
+
+jsfiddlelink - it generates new unique url for everycode we ryt and easy to share our problem , stack overflow , codepen.io
+
+
+resources:
+----------
+https://www.w3.org/TR/html52/
+
+https://caniuse.com/  - says what features are supported by wt all browser
+
+https://validator.w3.org/nu/#textarea - to validate the html code
+
+https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html
+
+FAQ:
+---
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md#q-how-to-ask-and-get-your-question-answered-a-must-read
+
+*metatag is standalone tag hence no closing tag
+*elements are of 2 types: block-level elements(starts in new line) or inline elements
+* > in html &gt;   < in html is &lt;   & in html is &amp; &copy; is for copy rights &nbsp; - allows u not to break that element when the screen shrinks
+*&quot; - is used for for quoting value and if values are safeguarded by non-modification.
+*FRAGMENT IDENTIFIERS HELPS NAVIGATION EASIER
+
