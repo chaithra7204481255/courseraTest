@@ -1,276 +1,247 @@
-/* css Zen Garden submission 211 - 'Orchid Beauty', by Kevin Addison, http://www.kevinaddison.com/ */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-/* All associated graphics copyright 2006, Kevin Addison */
+    
 
+        @media(min-width: 992px) {
 
-/* IMPORTANT */
-/* This design is not a template. You may not reproduce it elsewhere without the 
-   designer's written permission. However, feel free to study the CSS and use 
-   techniques you learn from it elsewhere. */
+            .col-lg-1,
+            .col-lg-2,
+            .col-lg-3,
+            .col-lg-4,
+            .col-lg-5,
+            .col-lg-6,
+            .col-lg-7,
+            .col-lg-8,
+            .col-lg-9,
+            .col-lg-10,
+            .col-lg-11,
+            .col-lg-12 {
+                float: left;
+                /* border: 1px solid black; */
+            }
 
+            .col-lg-1 {
+                width: 8.33%;
+            }
 
+            .col-lg-2 {
+                width: 16.66%;
+            }
 
+            .col-lg-3 {
+                width: 25%;
+            }
 
+            .col-lg-4 {
+                width: 33.33%;
+            }
 
-/* Orchid Beauty Style Sheet */
-/* --------------------------*/
+            .col-lg-5 {
+                width: 41.66%;
+            }
 
-a:link {
-	color: #6D2542;
-	text-decoration: none;
-	}
-a:visited {
-	color: #999999;
-	text-decoration: none;
-	}
-a:hover {
-	color: #999999;
-	text-decoration: underline;
-	}
-a:active {
-	color: #999999;
-	text-decoration: none;
-	} 
+            .col-lg-6 {
+                width: 50%;
+            }
 
-body {
-margin:0 0 0 0;
-padding:0 0 0 0;
+            .col-lg-7 {
+                width: 58.33%;
+            }
+
+            .col-lg-8 {
+                width: 66.66%;
+            }
+
+            .col-lg-9 {
+                width: 74.99%;
+            }
+
+            .col-lg-10 {
+                width: 83.33%;
+            }
+
+            .col-lg-11 {
+                width: 91.66%;
+            }
+
+            .col-lg-12 {
+                width: 100%;
+            }
+        }
+
+        @media(min-width: 768px) and (max-width: 991px) {
+
+            .col-md-1,
+            .col-md-2,
+            .col-md-3,
+            .col-md-4,
+            .col-md-5,
+            .col-md-6,
+            .col-md-7,
+            .col-md-8,
+            .col-md-9,
+            .col-md-10,
+            .col-md-11,
+            .col-md-12 {
+                float: left;
+                /* border: 1px solid orange; */
+            }
+
+            .col-md-1 {
+                width: 8.33%;
+            }
+
+            .col-md-2 {
+                width: 16.66%;
+            }
+
+            .col-md-3 {
+                width: 25%;
+            }
+
+            .col-md-4 {
+                width: 33.33%;
+            }
+
+            .col-md-5 {
+                width: 41.66%;
+            }
+
+            .col-md-6 {
+                width: 50%;
+            }
+
+            .col-md-7 {
+                width: 58.33%;
+            }
+
+            .col-md-8 {
+                width: 66.66%;
+            }
+
+            .col-md-9 {
+                width: 74.99%;
+            }
+
+            .col-md-10 {
+                width: 83.33%;
+            }
+
+            .col-md-11 {
+                width: 91.66%;
+            }
+
+            .col-md-12 {
+                width: 100%;
+            }
+        }
+
+        @media(max-width: 767px) {
+
+.col-sm-1,
+.col-sm-2,
+.col-sn-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+    float: left;
+    /* border: 1px solid blue; */
 }
 
-
-.page-wrapper {
-width:630px;
-margin: auto;
-padding: 0 0 100px 0;
-background-image:url(rounded.jpg);
-background-repeat: no-repeat;
-background-position:bottom;
-border:0px dotted #999999;
-position:relative;
+.col-sm-1 {
+    width: 8.33%;
 }
 
-header {
-background: transparent url(header.jpg) no-repeat center top;
-border:0px dotted #999999;
-width:630px;
-height:387px;
+.col-sm-2 {
+    width: 16.66%;
 }
 
-.intro {
-width:400px;
-margin:0 0 0 0;
-border:0px dotted #999999;
+.col-sm-3 {
+    width: 25%;
 }
 
-.summary p:last-child {
-border:0px solid #000000;
-margin:-110px 0 95px 288px;
-padding: 0 0 0 15px;
-text-transform: uppercase;
-width:290px;
-font-family:Geneva, Arial, Helvetica, sans-serif;
-font-size:10px;
-font-weight:normal;
-color:#999999;
-background: transparent url(bullet.jpg) no-repeat 0% 28%;
+.col-sm-4 {
+    width: 33.33%;
 }
 
-.supporting {
-width:350px;
-margin:0 0 0 0;
+.col-sm-5 {
+    width: 41.66%;
 }
 
-.preamble, .explanation, .participation, .benefits, .requirements {
-border-bottom:0px dotted #999999;
-position:relative;
-width:350px;
-margin:0 0 0 60px;
+.col-sm-6 {
+    width: 50%;
 }
 
-.requirements {
-margin-bottom:35px;
+.col-sm-7 {
+    width: 58.33%;
 }
 
-.preamble h3 {
-background-image: url(title01.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-width:286px;
-height:64px;
-margin-bottom:-5px;
+.col-sm-8 {
+    width: 66.66%;
 }
 
-.explanation h3 {
-background-image: url(title02.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-width:286px;
-height:66px;
-margin-bottom:-5px;
+.col-sm-9 {
+    width: 74.99%;
 }
 
-.participation h3 {
-background-image: url(title03.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-width:286px;
-height:66px;
-margin-bottom:-5px;
+.col-sm-10 {
+    width: 83.33%;
 }
 
-.benefits h3 {
-background-image: url(title04.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-width:286px;
-height:66px;
-margin-bottom:-5px;
+.col-sm-11 {
+    width: 91.66%;
 }
 
-.requirements h3 {
-background-image: url(title05.jpg);
-background-repeat: no-repeat;
-background-position: left top;
-width:286px;
-height:66px;
-margin-bottom:-5px;
+.col-sm-12 {
+    width: 100%;
 }
+}
+.sec1{
+    background-color: green;
+    color: white;
+    width: 15%;
+    height: 5%;
+    float: right;
+    margin-top: 0;
+    border: 1px solid black;
+}
+.sec2{
+    background-color: orangered;
+    color: white;
+    width: 15%;
+    height: 5%;
+    float: right;
+    margin-top: 0;
+    border: 1px solid black;
+}
+.sec3{
+    background-color: orange;
+    color: white;
+    width: 15%;
+    height: 5%;
+    float: right;
+    margin-top: 0;
+    border: 1px solid black;
+}
+* {
+            box-sizing: border-box;
+        }
 
-header h1, header h2, .summary p:first-child {
-display:none;
-}
-.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
-}
-
-p {
-color: #999999;
-font-size:11px;
-font-weight:normal;
-line-height:1.4em;
-font-family: Geneva, Arial, Helvetica, sans-serif;
-}
-
-.sidebar {
-position: absolute;
-left:160px; 
-right:auto; 
-top: 400px;
-padding:0 0 0 0;
-margin-left: 270px;
-width: 180px;
-border:0px dotted #666666;
-background: transparent url(orchid.jpg) no-repeat bottom;
-height:810px;
-}
-
-.sidebar ul {
-	text-align: left;
-	list-style: none;
-	margin: 0 0 0 0;
-	padding:0 0 15px 35px;
-	font-size:10px;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	border:0px dotted #666666;
-	width:120px;
-	}
-
-.sidebar ul li{
-	margin: 0;
-	padding: 3px 0 3px 0;
-	border-bottom: 1px dotted #999999;
-}
-
-.sidebar ul li a, .sidebar ul li a:visited {
-	border-bottom: none;
-	outline:0;
-}
-
-.sidebar ul li a:hover {
-	color: #999999;
-	text-decoration: underline;
-}
-
-.design-selection {
-	font-size: 0.9em;
-}
-
-.design-selection ul li {
-	padding: 3px 0 3px 20px;
-	background: transparent url(bullet.jpg) no-repeat 2% 25%;
-	color:#999999;
-}
-
-.design-selection a {
-	display: block;
-	font-size: 1.1em;
-	color: #6D2542;
-}
-
-.design-selection a.designer-name {
-	display:inline;
-	line-height:5px;
-	margin:0;
-	padding:0;
-	font: normal 1.0em/0.9em Geneva, Arial, Tahoma, sans-serif;
-	color: #999999;
-	letter-spacing: -1px;
-}
-
-.design-selection, .design-archives {
-	margin-bottom: 5px;
-	border:0px solid #000000;
-}
-
-.design-archives ul li a, .zen-resources ul li a {
-color:#6D2542;
-}
-
-.design-selection h3, .design-archives h3, .zen-resources h3 {
-	width: 196px;
-	height: 40px;
-	margin-bottom:-20px;
-	padding:10px 0 0 35px;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	font-size:11px;
-	font-weight:normal;
-	text-transform: uppercase;
-	color:#999999;
-}
-
-footer{
-	text-align: left;
-	padding:0 0 0 0;
-	margin:0 0 0 60px;
-}
-
-footer a, footer a:visited {
-	padding: 5px;
-	border: 1px solid #eeeeee;
-	background-color: #fff;
-	color: #666666;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	font-size:10px;
-}
-
-footer a:hover {
-	padding: 5px;
-	border: 1px solid #eeeeee;
-	background-color: #eeeeee;
-	color: #999999;
-	font-family:Geneva, Arial, Helvetica, sans-serif;
-	font-size:10px;
-	text-decoration: none;
-}
-
-.extra1, .extra2, .extra3, .extra4, .extra5, .extra6{
-display:none;
-}
+        section {
+            background-color: grey;
+            margin-right: 1px;
+            /* border: 1px solid black; */
+            float: left;
+            width: 80%;
+            height: 80%;
+            border: 1px solid black;
+            margin-top: 15px;
+        }
+        h1{
+            text-align: center ;
+            margin-bottom: 50px;
+        }
